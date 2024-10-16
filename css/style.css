@@ -9982,3 +9982,27 @@ h6,
   padding: 0;
   list-style-type: none;
 }
+
+
+/* Custom Rounded Scrollbar with #0BCEAF Color and Transparent Background */
+::-webkit-scrollbar {
+    width: 5px;  /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;  /* Make the track background transparent */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #0BCEAF;  /* Color of the scrollbar */
+    border-radius: 10px;  /* Make the scrollbar rounded */
+    border: 2px solid transparent;  /* Optional transparent border */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #034a8f;  /* Darker blue when hovering */
+}
+
+/* Firefox Scrollbar */
+scrollbar-width: thin;
+scrollbar-color: #0BCEAF transparent;
